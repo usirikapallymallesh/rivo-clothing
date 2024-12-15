@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rufina:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* html {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.roboto-slab-item {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 40px;
+  /* font-style: normal; */
+}
+.rufina-regular {
+  font-family: "Rufina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rufina-bold {
+  font-family: "Rufina", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 86px;
+  line-height: 96px;
+}
+
+
+/* 2. White, Navy, and Yellow
+60% White: Clean and spacious, making products stand out.
+30% Navy: Adds depth and sophistication while being easy on the eyes.
+10% Yellow: Bright and cheerful, perfect for highlighting promotions or special offers. */
+
+/* White (#F2F3F2 - Anti-Flash White) */
+/* Navy Blue (#000083 - Navy Blue) */
+/* Yellow (#FFEB01 - Middle Yellow) */
